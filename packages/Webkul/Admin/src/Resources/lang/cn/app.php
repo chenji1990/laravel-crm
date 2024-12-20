@@ -1,0 +1,2060 @@
+<?php
+
+return [
+    'acl' => [
+        'leads' => '线索',
+        'lead' => '线索',
+        'quotes' => '报价',
+        'mail' => '邮件',
+        'inbox' => '收件箱',
+        'draft' => '草稿',
+        'outbox' => '发件箱',
+        'sent' => '已发送',
+        'trash' => '垃圾箱',
+        'activities' => '活动',
+        'webhook' => 'Webhook',
+        'contacts' => '联系人',
+        'persons' => '个人',
+        'organizations' => '组织',
+        'products' => '产品',
+        'settings' => '设置',
+        'groups' => '组',
+        'roles' => '角色',
+        'users' => '用户',
+        'user' => '用户',
+        'automation' => '自动化',
+        'attributes' => '属性',
+        'pipelines' => '管道',
+        'sources' => '来源',
+        'types' => '类型',
+        'email-templates' => '邮件模板',
+        'workflows' => '工作流',
+        'other-settings' => '其他设置',
+        'tags' => '标签',
+        'configuration' => '配置',
+        'create' => '创建',
+        'edit' => '编辑',
+        'view' => '查看',
+        'print' => '打印',
+        'delete' => '删除',
+        'export' => '导出',
+        'mass-delete' => '批量删除',
+    ],
+
+    'users' => [
+        'activate-warning' => '您的帐户尚未激活，请联系管理员。',
+        'login-error' => '凭证与我们的记录不匹配。',
+
+        'login' => [
+            'email' => '电子邮件地址',
+            'forget-password-link' => '忘记密码？',
+            'password' => '密码',
+            'submit-btn' => '登录',
+            'title' => '登录',
+        ],
+
+        'forget-password' => [
+            'create' => [
+                'email' => '注册邮箱',
+                'email-not-exist' => '邮箱不存在',
+                'page-title' => '忘记密码',
+                'reset-link-sent' => '重置密码链接已发送',
+                'sign-in-link' => '返回登录页面？',
+                'submit-btn' => '重置',
+                'title' => '找回密码',
+            ],
+        ],
+
+        'reset-password' => [
+            'back-link-title' => '返回登录页面？',
+            'confirm-password' => '确认密码',
+            'email' => '注册邮箱',
+            'password' => '密码',
+            'submit-btn' => '重置密码',
+            'title' => '重置密码',
+        ],
+    ],
+
+    'account' => [
+        'edit' => [
+            'back-btn' => '返回',
+            'change-password' => '更改密码',
+            'confirm-password' => '确认密码',
+            'current-password' => '当前密码',
+            'email' => '电子邮件',
+            'general' => '常规',
+            'invalid-password' => '您输入的当前密码不正确。',
+            'name' => '姓名',
+            'password' => '密码',
+            'profile-image' => '个人头像',
+            'save-btn' => '保存账户',
+            'title' => '我的账户',
+            'update-success' => '账户更新成功',
+            'upload-image-info' => '上传个人头像（110px X 110px），支持PNG或JPG格式',
+        ],
+    ],
+
+    'components' => [
+        'activities' => [
+            'actions' => [
+                'mail' => [
+                    'btn' => '邮件',
+                    'title' => '写邮件',
+                    'to' => '收件人',
+                    'enter-emails' => '按回车键添加电子邮件',
+                    'cc' => '抄送',
+                    'bcc' => '密送',
+                    'subject' => '主题',
+                    'send-btn' => '发送',
+                    'message' => '信息',
+                ],
+
+                'file' => [
+                    'btn' => '文件',
+                    'title' => '添加文件',
+                    'title-control' => '标题',
+                    'name' => '名称',
+                    'description' => '描述',
+                    'file' => '文件',
+                    'save-btn' => '保存文件',
+                ],
+
+                'note' => [
+                    'btn' => '备注',
+                    'title' => '添加备注',
+                    'comment' => '评论',
+                    'save-btn' => '保存备注',
+                ],
+
+                'activity' => [
+                    'btn' => '活动',
+                    'title' => '添加活动',
+                    'title-control' => '标题',
+                    'description' => '描述',
+                    'schedule-from' => '开始时间',
+                    'schedule-to' => '结束时间',
+                    'location' => '地点',
+                    'call' => '电话',
+                    'meeting' => '会议',
+                    'lunch' => '午餐',
+                    'save-btn' => '保存活动',
+
+                    'participants' => [
+                        'title' => '参与者',
+                        'placeholder' => '请输入以搜索参与者',
+                        'users' => '用户',
+                        'persons' => '个人',
+                        'no-results' => '未找到结果...',
+                    ],
+                ],
+            ],
+
+            'index' => [
+                'from' => '来自',
+                'to' => '到',
+                'cc' => '抄送',
+                'bcc' => '密送',
+                'all' => '全部',
+                'planned' => '已计划',
+                'calls' => '电话',
+                'meetings' => '会议',
+                'lunches' => '午餐',
+                'files' => '文件',
+                'quotes' => '报价',
+                'notes' => '备注',
+                'emails' => '电子邮件',
+                'change-log' => '更改日志',
+                'by-user' => '由 :user',
+                'scheduled-on' => '计划于',
+                'location' => '地点',
+                'participants' => '参与者',
+                'mark-as-done' => '标记为已完成',
+                'delete' => '删除',
+                'edit' => '编辑',
+                'view' => '查看',
+                'unlink' => '解除链接',
+                'empty' => '空的',
+
+                'empty-placeholders' => [
+                    'all' => [
+                        'title' => '未找到活动',
+                        'description' => '没有找到任何活动。您可以通过左侧面板的按钮添加活动。',
+                    ],
+
+                    'planned' => [
+                        'title' => '未找到计划的活动',
+                        'description' => '没有找到任何计划的活动。您可以通过左侧面板的按钮添加计划活动。',
+                    ],
+
+                    'notes' => [
+                        'title' => '未找到备注',
+                        'description' => '没有找到任何备注。您可以通过左侧面板的按钮添加备注。',
+                    ],
+
+                    'calls' => [
+                        'title' => '未找到电话',
+                        'description' => '没有找到电话记录。您可以通过左侧面板的按钮添加电话记录。',
+                    ],
+
+                    'meetings' => [
+                        'title' => '未找到会议',
+                        'description' => '没有找到会议记录。您可以通过左侧面板的按钮添加会议记录。',
+                    ],
+
+                    'lunches' => [
+                        'title' => '未找到午餐',
+                        'description' => '没有找到午餐记录。您可以通过左侧面板的按钮添加午餐记录。',
+                    ],
+
+                    'files' => [
+                        'title' => '未找到文件',
+                        'description' => '没有找到文件。您可以通过左侧面板的按钮添加文件。',
+                    ],
+
+                    'emails' => [
+                        'title' => '未找到电子邮件',
+                        'description' => '没有找到电子邮件。您可以通过左侧面板的按钮添加电子邮件。',
+                    ],
+
+                    'system' => [
+                        'title' => '未找到更改日志',
+                        'description' => '没有找到更改日志。',
+                    ],
+                ],
+            ],
+        ],
+
+        'media' => [
+            'images' => [
+                'add-image-btn' => '添加图片',
+                'ai-add-image-btn' => 'AI生成图片',
+                'allowed-types' => 'png, jpeg, jpg',
+                'not-allowed-error' => '仅允许图片文件（.jpeg, .jpg, .png等）。',
+
+                'placeholders' => [
+                    'front' => '前面',
+                    'next' => '下一个',
+                    'size' => '大小',
+                    'use-cases' => '使用场景',
+                    'zoom' => '缩放',
+                ],
+            ],
+
+            'videos' => [
+                'add-video-btn' => '添加视频',
+                'allowed-types' => 'mp4, webm, mkv',
+                'not-allowed-error' => '仅允许视频文件（.mp4, .mov, .ogg等）。',
+            ],
+        ],
+
+
+        'datagrid' => [
+            'index' => [
+                'no-records-selected' => '未选择任何记录。',
+                'must-select-a-mass-action-option' => '您必须选择一个批量操作选项。',
+                'must-select-a-mass-action' => '您必须选择一个批量操作。',
+            ],
+
+            'toolbar' => [
+                'length-of' => ':length 的',
+                'of' => '的',
+                'per-page' => '每页',
+                'results' => ':total 结果',
+                'delete' => '删除',
+                'selected' => ':total 项已选择',
+
+                'mass-actions' => [
+                    'submit' => '提交',
+                    'select-option' => '选择选项',
+                    'select-action' => '选择行动',
+                ],
+
+                'filter' => [
+                    'apply-filters-btn' => '应用过滤器',
+                    'back-btn' => '返回',
+                    'create-new-filter' => '创建新过滤器',
+                    'custom-filters' => '自定义过滤器',
+                    'delete-error' => '删除过滤器时发生错误，请重试。',
+                    'delete-success' => '过滤器已成功删除。',
+                    'empty-description' => '没有可保存的选定过滤器。请选择要保存的过滤器。',
+                    'empty-title' => '添加过滤器以保存',
+                    'name' => '名称',
+                    'quick-filters' => '快速过滤器',
+                    'save-btn' => '保存',
+                    'save-filter' => '保存过滤器',
+                    'saved-success' => '过滤器已成功保存。',
+                    'selected-filters' => '已选过滤器',
+                    'title' => '过滤器',
+                    'update' => '更新',
+                    'update-filter' => '更新过滤器',
+                    'updated-success' => '过滤器已成功更新。',
+                ],
+
+                'search' => [
+                    'title' => '搜索',
+                ],
+            ],
+
+            'filters' => [
+                'select' => '选择',
+                'title' => '过滤器',
+
+                'dropdown' => [
+                    'searchable' => [
+                        'at-least-two-chars' => '至少输入 2 个字符...',
+                        'no-results' => '未找到结果...',
+                    ],
+                ],
+
+                'custom-filters' => [
+                    'clear-all' => '清除所有',
+                    'title' => '自定义过滤器',
+                ],
+
+                'boolean-options' => [
+                    'false' => '假',
+                    'true' => '真',
+                ],
+
+                'date-options' => [
+                    'last-month' => '上月',
+                    'last-six-months' => '过去 6 个月',
+                    'last-three-months' => '过去 3 个月',
+                    'this-month' => '本月',
+                    'this-week' => '本周',
+                    'this-year' => '今年',
+                    'today' => '今天',
+                    'yesterday' => '昨天',
+                ],
+            ],
+
+            'table' => [
+                'actions' => '操作',
+                'no-records-available' => '没有可用记录。',
+            ],
+        ],
+
+        'modal' => [
+            'confirm' => [
+                'agree-btn' => '同意',
+                'disagree-btn' => '不同意',
+                'message' => '您确定要执行此操作吗？',
+                'title' => '您确定吗？',
+            ],
+        ],
+
+        'tags' => [
+            'index' => [
+                'title' => '标签',
+                'added-tags' => '已添加标签',
+                'save-btn' => '保存标签',
+                'placeholder' => '输入以搜索标签',
+                'add-tag' => '添加“:term”...',
+                'aquarelle-red' => '水粉红',
+                'crushed-cashew' => '粉碎腰果',
+                'beeswax' => '蜂蜡',
+                'lemon-chiffon' => '柠檬轻纱',
+                'snow-flurry' => '雪花',
+                'honeydew' => '蜜露',
+            ],
+        ],
+
+        'layouts' => [
+            'header' => [
+                'mega-search' => [
+                    'title' => '搜索',
+
+                    'tabs' => [
+                        'leads' => '线索',
+                        'quotes' => '报价',
+                        'persons' => '个人',
+                        'products' => '产品',
+                    ],
+
+                    'explore-all-products' => '探索所有产品',
+                    'explore-all-leads' => '探索所有线索',
+                    'explore-all-contacts' => '探索所有联系人',
+                    'explore-all-quotes' => '探索所有报价',
+                    'explore-all-matching-products' => '探索所有与“:query”匹配的产品 (:count)',
+                    'explore-all-matching-leads' => '探索所有与“:query”匹配的线索 (:count)',
+                    'explore-all-matching-contacts' => '探索所有与“:query”匹配的联系人 (:count)',
+                    'explore-all-matching-quotes' => '探索所有与“:query”匹配的报价 (:count)',
+                ],
+            ],
+        ],
+
+        'attributes' => [
+            'edit' => [
+                'delete' => '删除',
+            ],
+
+            'lookup' => [
+                'click-to-add' => '点击添加',
+                'search' => '搜索',
+                'no-result-found' => '未找到结果',
+                'search' => '搜索...',
+            ],
+        ],
+
+        'lookup' => [
+            'click-to-add' => '点击添加',
+            'no-results' => '未找到结果',
+            'add-as-new' => '添加为新项',
+            'search' => '搜索...',
+        ],
+
+        'flash-group' => [
+            'success' => '成功',
+            'error' => '错误',
+            'warning' => '警告',
+            'info' => '信息',
+        ],
+    ],
+
+    'quotes' => [
+        'index' => [
+            'title' => '报价',
+            'create-btn' => '创建报价',
+            'create-success' => '报价创建成功。',
+            'update-success' => '报价更新成功。',
+            'delete-success' => '报价删除成功。',
+            'delete-failed' => '报价无法删除。',
+
+            'datagrid' => [
+                'subject' => '主题',
+                'sales-person' => '销售人员',
+                'expired-at' => '到期于',
+                'created-at' => '创建于',
+                'expired-quotes' => '过期报价',
+                'person' => '个人',
+                'subtotal' => '小计',
+                'discount' => '折扣',
+                'tax' => '税',
+                'adjustment' => '调整',
+                'grand-total' => '总计',
+                'edit' => '编辑',
+                'delete' => '删除',
+                'print' => '打印',
+            ],
+
+            'pdf' => [
+                'title' => '报价',
+                'grand-total' => '总计',
+                'adjustment' => '调整',
+                'discount' => '折扣',
+                'tax' => '税',
+                'sub-total' => '小计',
+                'amount' => '金额',
+                'quantity' => '数量',
+                'price' => '价格',
+                'product-name' => '产品名称',
+                'sku' => 'SKU',
+                'shipping-address' => '送货地址',
+                'billing-address' => '账单地址',
+                'expired-at' => '到期于',
+                'sales-person' => '销售人员',
+                'date' => '日期',
+                'quote-id' => '报价 ID',
+            ],
+        ],
+
+        'create' => [
+            'title' => '创建报价',
+            'save-btn' => '保存报价',
+            'quote-info' => '报价信息',
+            'quote-info-info' => '填写报价的基本信息。',
+            'address-info' => '地址信息',
+            'address-info-info' => '与报价相关的地址信息。',
+            'quote-items' => '报价项',
+            'search-products' => '搜索产品',
+            'link-to-lead' => '关联线索',
+            'quote-item-info' => '为此报价添加产品请求。',
+            'quote-name' => '报价名称',
+            'quantity' => '数量',
+            'price' => '价格',
+            'discount' => '折扣',
+            'tax' => '税费',
+            'total' => '总计',
+            'amount' => '金额',
+            'add-item' => '+ 添加项',
+            'sub-total' => '小计 (:symbol)',
+            'total-discount' => '折扣 (:symbol)',
+            'total-tax' => '税费 (:symbol)',
+            'total-adjustment' => '调整 (:symbol)',
+            'grand-total' => '总计 (:symbol)',
+            'discount-amount' => '折扣金额',
+            'tax-amount' => '税费金额',
+            'adjustment-amount' => '调整金额',
+            'product-name' => '产品名称',
+            'action' => '操作',
+        ],
+
+        'edit' => [
+            'title' => '编辑报价',
+            'save-btn' => '保存报价',
+            'quote-info' => '报价信息',
+            'quote-info-info' => '填写报价的基本信息。',
+            'address-info' => '地址信息',
+            'address-info-info' => '与报价相关的地址信息。',
+            'quote-items' => '报价项',
+            'link-to-lead' => '关联线索',
+            'quote-item-info' => '为此报价添加产品请求。',
+            'quote-name' => '报价名称',
+            'quantity' => '数量',
+            'price' => '价格',
+            'search-products' => '搜索产品',
+            'discount' => '折扣',
+            'tax' => '税费',
+            'total' => '总计',
+            'amount' => '金额',
+            'add-item' => '+ 添加项',
+            'sub-total' => '小计 (:symbol)',
+            'total-discount' => '折扣 (:symbol)',
+            'total-tax' => '税费 (:symbol)',
+            'total-adjustment' => '调整 (:symbol)',
+            'grand-total' => '总计 (:symbol)',
+            'discount-amount' => '折扣金额',
+            'tax-amount' => '税费金额',
+            'adjustment-amount' => '调整金额',
+            'product-name' => '产品名称',
+            'action' => '操作',
+        ],
+    ],
+
+
+
+    'contacts' => [
+        'persons' => [
+            'index' => [
+                'title' => '联系人',
+                'create-btn' => '创建联系人',
+                'create-success' => '联系人创建成功。',
+                'update-success' => '联系人更新成功。',
+                'delete-success' => '联系人删除成功。',
+                'delete-failed' => '联系人无法删除。',
+                'datagrid' => [
+                    'contact-numbers' => '联系方式',
+                    'delete' => '删除',
+                    'edit' => '编辑',
+                    'emails' => '电子邮件',
+                    'id' => 'ID',
+                    'view' => '查看',
+                    'name' => '姓名',
+                    'organization-name' => '组织名称',
+                ],
+            ],
+
+            'view' => [
+                'title' => ':name',
+                'about-person' => '关于联系人',
+                'about-organization' => '关于组织',
+                'activities' => [
+                    'index' => [
+                        'all' => '所有',
+                        'calls' => '电话',
+                        'meetings' => '会议',
+                        'lunches' => '午餐',
+                        'files' => '文件',
+                        'quotes' => '报价',
+                        'notes' => '笔记',
+                        'emails' => '电子邮件',
+                        'by-user' => '由 :user',
+                        'scheduled-on' => '计划于',
+                        'location' => '地点',
+                        'participants' => '参与者',
+                        'mark-as-done' => '标记为完成',
+                        'delete' => '删除',
+                        'edit' => '编辑',
+                    ],
+
+                    'actions' => [
+                        'mail' => [
+                            'btn' => '邮件',
+                            'title' => '撰写邮件',
+                            'to' => '收件人',
+                            'cc' => '抄送',
+                            'bcc' => '密送',
+                            'subject' => '主题',
+                            'send-btn' => '发送',
+                            'message' => '消息',
+                        ],
+
+                        'file' => [
+                            'btn' => '文件',
+                            'title' => '添加文件',
+                            'title-control' => '标题',
+                            'name' => '文件名称',
+                            'description' => '描述',
+                            'file' => '文件',
+                            'save-btn' => '保存文件',
+                        ],
+
+                        'note' => [
+                            'btn' => '笔记',
+                            'title' => '添加笔记',
+                            'comment' => '评论',
+                            'save-btn' => '保存笔记',
+                        ],
+
+                        'activity' => [
+                            'btn' => '活动',
+                            'title' => '添加活动',
+                            'title-control' => '标题',
+                            'description' => '描述',
+                            'schedule-from' => '开始时间',
+                            'schedule-to' => '结束时间',
+                            'location' => '地点',
+                            'call' => '电话',
+                            'meeting' => '会议',
+                            'lunch' => '午餐',
+                            'save-btn' => '保存活动',
+                        ],
+                    ],
+                ],
+            ],
+
+            'create' => [
+                'title' => '创建联系人',
+                'save-btn' => '保存联系人',
+            ],
+
+            'edit' => [
+                'title' => '编辑联系人',
+                'save-btn' => '保存联系人',
+            ],
+        ],
+        'organizations' => [
+            'index' => [
+                'title' => '组织',
+                'create-btn' => '创建组织',
+                'create-success' => '组织创建成功。',
+                'update-success' => '组织更新成功。',
+                'delete-success' => '组织删除成功。',
+                'delete-failed' => '组织无法删除。',
+                'datagrid' => [
+                    'delete' => '删除',
+                    'edit' => '编辑',
+                    'id' => 'ID',
+                    'name' => '名称',
+                    'persons-count' => '人员数量',
+                ],
+            ],
+
+            'create' => [
+                'title' => '创建组织',
+                'save-btn' => '保存组织',
+            ],
+
+            'edit' => [
+                'title' => '编辑组织',
+                'save-btn' => '保存组织',
+            ],
+        ],
+
+    ],
+
+    'products' => [
+        'index' => [
+            'title' => '产品',
+            'create-btn' => '创建产品',
+            'create-success' => '产品创建成功。',
+            'update-success' => '产品更新成功。',
+            'delete-success' => '产品删除成功。',
+            'delete-failed' => '产品无法删除。',
+            'datagrid' => [
+                'allocated' => '已分配',
+                'delete' => '删除',
+                'edit' => '编辑',
+                'id' => 'ID',
+                'in-stock' => '库存',
+                'name' => '名称',
+                'on-hand' => '现货',
+                'price' => '价格',
+                'sku' => 'SKU',
+                'view' => '查看',
+            ],
+        ],
+
+        'create' => [
+            'save-btn' => '保存产品',
+            'title' => '创建产品',
+            'general' => '基本信息',
+            'price' => '价格',
+        ],
+
+        'edit' => [
+            'title' => '编辑产品',
+            'save-btn' => '保存产品',
+            'general' => '基本信息',
+            'price' => '价格',
+        ],
+
+        'view' => [
+            'sku' => 'SKU',
+            'all' => '所有',
+            'notes' => '笔记',
+            'files' => '文件',
+            'inventories' => '库存',
+            'change-logs' => '变更日志',
+            'attributes' => [
+                'about-product' => '关于产品',
+            ],
+
+            'inventory' => [
+                'source' => '来源',
+                'in-stock' => '库存',
+                'allocated' => '已分配',
+                'on-hand' => '现货',
+                'actions' => '操作',
+                'assign' => '分配',
+                'add-source' => '添加来源',
+                'location' => '位置',
+                'add-more' => '添加更多',
+                'save' => '保存',
+            ],
+        ],
+    ],
+
+    'settings' => [
+        'title' => '设置',
+
+        'groups' => [
+            'index' => [
+                'create-btn' => '创建组',
+                'title' => '组',
+                'create-success' => '组创建成功。',
+                'update-success' => '组更新成功。',
+                'destroy-success' => '组删除成功。',
+                'delete-failed' => '组无法删除。',
+
+                'datagrid' => [
+                    'delete' => '删除',
+                    'description' => '描述',
+                    'edit' => '编辑',
+                    'id' => 'ID',
+                    'name' => '名称',
+                ],
+
+                'edit' => [
+                    'title' => '编辑组',
+                ],
+
+                'create' => [
+                    'name' => '名称',
+                    'title' => '创建组',
+                    'description' => '描述',
+                    'save-btn' => '保存组',
+                ],
+            ],
+        ],
+
+        'roles' => [
+            'index' => [
+                'being-used' => '角色无法删除，因为它正在被管理员用户使用。',
+                'create-btn' => '创建角色',
+                'create-success' => '角色创建成功。',
+                'current-role-delete-error' => '无法删除分配给当前用户的角色。',
+                'delete-failed' => '角色无法删除。',
+                'delete-success' => '角色删除成功。',
+                'last-delete-error' => '至少需要一个角色。',
+                'settings' => '设置',
+                'title' => '角色',
+                'update-success' => '角色更新成功。',
+                'user-define-error' => '无法删除系统角色。',
+
+                'datagrid' => [
+                    'all' => '所有',
+                    'custom' => '自定义',
+                    'delete' => '删除',
+                    'description' => '描述',
+                    'edit' => '编辑',
+                    'id' => 'ID',
+                    'name' => '名称',
+                    'permission-type' => '权限类型',
+                ],
+            ],
+
+            'create' => [
+                'access-control' => '访问控制',
+                'all' => '所有',
+                'back-btn' => '返回',
+                'custom' => '自定义',
+                'description' => '描述',
+                'general' => '一般',
+                'name' => '名称',
+                'permissions' => '权限',
+                'save-btn' => '保存角色',
+                'title' => '创建角色',
+            ],
+
+            'edit' => [
+                'access-control' => '访问控制',
+                'all' => '所有',
+                'back-btn' => '返回',
+                'custom' => '自定义',
+                'description' => '描述',
+                'general' => '一般',
+                'name' => '名称',
+                'permissions' => '权限',
+                'save-btn' => '保存角色',
+                'title' => '编辑角色',
+            ],
+        ],
+
+        'types' => [
+            'index' => [
+                'create-btn' => '创建类型',
+                'create-success' => '类型创建成功。',
+                'delete-failed' => '类型无法删除。',
+                'delete-success' => '类型删除成功。',
+                'title' => '类型',
+                'update-success' => '类型更新成功。',
+
+                'datagrid' => [
+                    'delete' => '删除',
+                    'description' => '描述',
+                    'edit' => '编辑',
+                    'id' => 'ID',
+                    'name' => '名称',
+                ],
+
+                'create' => [
+                    'name' => '名称',
+                    'save-btn' => '保存类型',
+                    'title' => '创建类型',
+                ],
+
+                'edit' => [
+                    'title' => '编辑类型',
+                ],
+            ],
+        ],
+
+        'sources' => [
+            'index' => [
+                'create-btn' => '创建来源',
+                'create-success' => '来源创建成功。',
+                'delete-failed' => '来源无法删除。',
+                'delete-success' => '来源删除成功。',
+                'title' => '来源',
+                'update-success' => '来源更新成功。',
+
+                'datagrid' => [
+                    'delete' => '删除',
+                    'edit' => '编辑',
+                    'id' => 'ID',
+                    'name' => '名称',
+                ],
+
+                'create' => [
+                    'name' => '名称',
+                    'save-btn' => '保存来源',
+                    'title' => '创建来源',
+                ],
+
+                'edit' => [
+                    'title' => '编辑来源',
+                ],
+            ],
+        ],
+
+        'workflows' => [
+            'index' => [
+                'title' => '工作流',
+                'create-btn' => '创建工作流',
+                'create-success' => '工作流创建成功。',
+                'update-success' => '工作流更新成功。',
+                'delete-success' => '工作流删除成功。',
+                'delete-failed' => '工作流无法删除。',
+                'datagrid' => [
+                    'delete' => '删除',
+                    'description' => '描述',
+                    'edit' => '编辑',
+                    'id' => 'ID',
+                    'name' => '名称',
+                ],
+            ],
+
+            'helpers' => [
+                'update-related-leads' => '更新相关线索',
+                'send-email-to-sales-owner' => '发送电子邮件给销售负责人',
+                'send-email-to-participants' => '发送电子邮件给参与者',
+                'add-webhook' => '添加Webhook',
+                'update-lead' => '更新线索',
+                'update-person' => '更新联系人',
+                'send-email-to-person' => '发送电子邮件给联系人',
+                'add-tag' => '添加标签',
+                'add-note-as-activity' => '将笔记添加为活动',
+                'update-quote' => '更新报价',
+            ],
+
+            'create' => [
+                'title' => '创建工作流',
+                'event' => '事件',
+                'back-btn' => '返回',
+                'save-btn' => '保存工作流',
+                'name' => '名称',
+                'basic-details' => '基本细节',
+                'description' => '描述',
+                'actions' => '操作',
+                'basic-details-info' => '填写工作流的基本信息。',
+                'event-info' => '事件触发，检查，条件并执行预定义的操作。',
+                'conditions' => '条件',
+                'conditions-info' => '条件是检查场景的规则，在特定场合触发。',
+                'actions-info' => '操作不仅减少了工作量，还使CRM自动化变得更加轻松',
+                'value' => '值',
+                'condition-type' => '条件类型',
+                'all-condition-are-true' => '所有条件都为真',
+                'any-condition-are-true' => '任意条件为真',
+                'add-condition' => '添加条件',
+                'add-action' => '添加操作',
+                'yes' => '是',
+                'no' => '否',
+                'email' => '电子邮件',
+                'is-equal-to' => '等于',
+                'is-not-equal-to' => '不等于',
+                'equals-or-greater-than' => '等于或大于',
+                'equals-or-less-than' => '等于或小于',
+                'greater-than' => '大于',
+                'less-than' => '小于',
+                'type' => '类型',
+                'contain' => '包含',
+                'contains' => '包含',
+                'does-not-contain' => '不包含',
+            ],
+
+            'edit' => [
+                'title' => '编辑工作流',
+                'event' => '事件',
+                'back-btn' => '返回',
+                'save-btn' => '保存工作流',
+                'name' => '名称',
+                'basic-details' => '基本细节',
+                'description' => '描述',
+                'actions' => '操作',
+                'type' => '类型',
+                'basic-details-info' => '填写工作流的基本信息。',
+                'event-info' => '事件触发，检查，条件并执行预定义的操作。',
+                'conditions' => '条件',
+                'conditions-info' => '条件是检查场景的规则，在特定场合触发。',
+                'actions-info' => '操作不仅减少了工作量，还使CRM自动化变得更加轻松',
+                'value' => '值',
+                'condition-type' => '条件类型',
+                'all-condition-are-true' => '所有条件都为真',
+                'any-condition-are-true' => '任意条件为真',
+                'add-condition' => '添加条件',
+                'add-action' => '添加操作',
+                'yes' => '是',
+                'no' => '否',
+                'email' => '电子邮件',
+                'is-equal-to' => '等于',
+                'is-not-equal-to' => '不等于',
+                'equals-or-greater-than' => '等于或大于',
+                'equals-or-less-than' => '等于或小于',
+                'greater-than' => '大于',
+                'less-than' => '小于',
+                'contain' => '包含',
+                'contains' => '包含',
+                'does-not-contain' => '不包含',
+            ],
+        ],
+
+        'webforms' => [
+            'index' => [
+                'title' => 'Web表单',
+                'create-btn' => '创建Web表单',
+                'create-success' => 'Web表单创建成功。',
+                'update-success' => 'Web表单更新成功。',
+                'delete-success' => 'Web表单删除成功。',
+                'delete-failed' => 'Web表单无法删除。',
+
+                'datagrid' => [
+                    'id' => 'ID',
+                    'title' => '标题',
+                    'edit' => '编辑',
+                    'delete' => '删除',
+                ],
+            ],
+
+            'create' => [
+                'title' => '创建Web表单',
+                'add-attribute-btn' => '添加属性按钮',
+                'attribute-label-color' => '属性标签颜色',
+                'attributes' => '属性',
+                'attributes-info' => '添加自定义属性到表单。',
+                'background-color' => '背景颜色',
+                'create-lead' => '创建线索',
+                'customize-webform' => '自定义Web表单',
+                'customize-webform-info' => '自定义您的Web表单以选择的元素颜色。',
+                'description' => '描述',
+                'display-custom-message' => '显示自定义消息',
+                'form-background-color' => '表单背景颜色',
+                'form-submit-btn-color' => '表单提交按钮颜色',
+                'form-submit-button-color' => '表单提交按钮颜色',
+                'form-title-color' => '表单标题颜色',
+                'general' => '一般',
+                'leads' => '线索',
+                'person' => '个人',
+                'save-btn' => '保存Web表单',
+                'submit-button-label' => '提交按钮标签',
+                'submit-success-action' => '提交成功操作',
+                'redirect-to-url' => '重定向到网址',
+                'choose-value' => '选择值',
+                'select-file' => '选择文件',
+                'select-image' => '选择图像',
+                'enter-value' => '输入值',
+            ],
+
+            'edit' => [
+                'title' => '编辑Web表单',
+                'add-attribute-btn' => '添加属性按钮',
+                'attribute-label-color' => '属性标签颜色',
+                'attributes' => '属性',
+                'attributes-info' => '添加自定义属性到表单。',
+                'background-color' => '背景颜色',
+                'code-snippet' => '代码片段',
+                'copied' => '已复制',
+                'copy' => '复制',
+                'create-lead' => '创建线索',
+                'customize-webform' => '自定义Web表单',
+                'customize-webform-info' => '自定义您的Web表单以选择的元素颜色。',
+                'description' => '描述',
+                'display-custom-message' => '显示自定义消息',
+                'embed' => '嵌入',
+                'form-background-color' => '表单背景颜色',
+                'form-submit-btn-color' => '表单提交按钮颜色',
+                'form-submit-button-color' => '表单提交按钮颜色',
+                'form-title-color' => '表单标题颜色',
+                'general' => '一般',
+                'preview' => '预览',
+                'person' => '个人',
+                'public-url' => '公共网址',
+                'redirect-to-url' => '重定向到网址',
+                'save-btn' => '保存Web表单',
+                'submit-button-label' => '提交按钮标签',
+                'submit-success-action' => '提交成功操作',
+                'choose-value' => '选择值',
+                'select-file' => '选择文件',
+                'select-image' => '选择图像',
+                'enter-value' => '输入值',
+            ],
+        ],
+
+        'email-template' => [
+            'index' => [
+                'create-btn' => '创建电子邮件模板',
+                'title' => '电子邮件模板',
+                'create-success' => '电子邮件模板创建成功。',
+                'update-success' => '电子邮件模板更新成功。',
+                'delete-success' => '电子邮件模板删除成功。',
+                'delete-failed' => '电子邮件模板无法删除。',
+
+                'datagrid' => [
+                    'delete' => '删除',
+                    'edit' => '编辑',
+                    'id' => 'ID',
+                    'name' => '名称',
+                    'subject' => '主题',
+                ],
+            ],
+
+            'create' => [
+                'title' => '创建电子邮件模板',
+                'save-btn' => '保存电子邮件模板',
+                'email-template' => '电子邮件模板',
+                'subject' => '主题',
+                'content' => '内容',
+                'subject-placeholders' => '主题占位符',
+                'general' => '一般',
+                'name' => '名称',
+            ],
+
+            'edit' => [
+                'title' => '编辑电子邮件模板',
+                'save-btn' => '保存电子邮件模板',
+                'email-template' => '电子邮件模板',
+                'subject' => '主题',
+                'content' => '内容',
+                'subject-placeholders' => '主题占位符',
+                'general' => '一般',
+                'name' => '名称',
+            ],
+        ],
+
+        'tags' => [
+            'index' => [
+                'create-btn' => '创建标签',
+                'title' => '标签',
+                'create-success' => '标签创建成功。',
+                'update-success' => '标签更新成功。',
+                'delete-success' => '标签删除成功。',
+                'delete-failed' => '标签无法删除。',
+
+                'datagrid' => [
+                    'delete' => '删除',
+                    'edit' => '编辑',
+                    'id' => 'ID',
+                    'name' => '名称',
+                    'users' => '用户',
+                    'created-at' => '创建于',
+                ],
+
+                'create' => [
+                    'name' => '名称',
+                    'save-btn' => '保存标签',
+                    'title' => '创建标签',
+                    'color' => '颜色',
+                ],
+
+                'edit' => [
+                    'title' => '编辑标签',
+                ],
+            ],
+        ],
+
+        'users' => [
+            'index' => [
+                'create-btn' => '创建用户',
+                'create-success' => '用户创建成功。',
+                'delete-failed' => '用户无法删除。',
+                'delete-success' => '用户删除成功。',
+                'last-delete-error' => '至少需要一个用户。',
+                'mass-delete-failed' => '用户无法删除。',
+                'mass-delete-success' => '用户删除成功。',
+                'mass-update-failed' => '用户无法更新。',
+                'mass-update-success' => '用户更新成功。',
+                'title' => '用户',
+                'update-success' => '用户更新成功。',
+                'user-define-error' => '无法删除系统用户。',
+                'active' => '激活',
+                'inactive' => '未激活',
+
+                'datagrid' => [
+                    'active' => '激活',
+                    'created-at' => '创建于',
+                    'delete' => '删除',
+                    'edit' => '编辑',
+                    'email' => '电子邮件',
+                    'id' => 'ID',
+                    'inactive' => '未激活',
+                    'name' => '名称',
+                    'status' => '状态',
+                    'update-status' => '更新状态',
+                    'users' => '用户',
+                ],
+
+                'create' => [
+                    'confirm-password' => '确认密码',
+                    'email' => '电子邮件',
+                    'general' => '一般',
+                    'global' => '全局',
+                    'group' => '组',
+                    'individual' => '个人',
+                    'name' => '名称',
+                    'password' => '密码',
+                    'permission' => '权限',
+                    'role' => '角色',
+                    'save-btn' => '保存用户',
+                    'status' => '状态',
+                    'title' => '创建用户',
+                    'view-permission' => '查看权限',
+                ],
+
+                'edit' => [
+                    'title' => '编辑用户',
+                ],
+            ],
+        ],
+
+
+        'pipelines' => [
+            'index' => [
+                'title' => '管道',
+                'create-btn' => '创建管道',
+                'create-success' => '管道创建成功。',
+                'update-success' => '管道更新成功。',
+                'delete-success' => '管道删除成功。',
+                'delete-failed' => '管道无法删除。',
+                'default-delete-error' => '默认管道无法删除。',
+
+                'datagrid' => [
+                    'delete' => '删除',
+                    'edit' => '编辑',
+                    'id' => 'ID',
+                    'is-default' => '是否默认',
+                    'name' => '名称',
+                    'no' => '否',
+                    'rotten-days' => '腐烂天数',
+                    'yes' => '是',
+                ],
+            ],
+
+            'create' => [
+                'title' => '创建管道',
+                'save-btn' => '保存管道',
+                'name' => '名称',
+                'rotten-days' => '腐烂天数',
+                'mark-as-default' => '设为默认',
+                'general' => '一般',
+                'probability' => '概率(%)',
+                'new-stage' => '新',
+                'won-stage' => '已赢',
+                'lost-stage' => '已丢失',
+                'stage-btn' => '添加阶段',
+                'stages' => '阶段',
+                'duplicate-name' => '“名称”字段不能重复',
+                'delete-stage' => '删除阶段',
+                'add-new-stages' => '添加新阶段',
+                'add-stage-info' => '为您的管道添加新阶段',
+                'newly-added' => '新添加的',
+                'stage-delete-success' => '阶段删除成功',
+            ],
+
+            'edit' => [
+                'title' => '编辑管道',
+                'save-btn' => '保存管道',
+                'name' => '名称',
+                'rotten-days' => '腐烂天数',
+                'mark-as-default' => '设为默认',
+                'general' => '一般',
+                'probability' => '概率(%)',
+                'new-stage' => '新',
+                'won-stage' => '已赢',
+                'lost-stage' => '已丢失',
+                'stage-btn' => '添加阶段',
+                'stages' => '阶段',
+                'duplicate-name' => '“名称”字段不能重复',
+                'delete-stage' => '删除阶段',
+                'add-new-stages' => '添加新阶段',
+                'add-stage-info' => '为您的管道添加新阶段',
+                'stage-delete-success' => '阶段删除成功',
+            ],
+        ],
+
+        'webhooks' => [
+            'index' => [
+                'title' => 'Webhooks',
+                'create-btn' => '创建Webhook',
+                'create-success' => 'Webhook创建成功。',
+                'update-success' => 'Webhook更新成功。',
+                'delete-success' => 'Webhook删除成功。',
+                'delete-failed' => 'Webhook无法删除。',
+
+                'datagrid' => [
+                    'id' => 'ID',
+                    'delete' => '删除',
+                    'edit' => '编辑',
+                    'name' => '名称',
+                    'entity-type' => '实体类型',
+                    'end-point' => '端点',
+                ],
+            ],
+
+            'create' => [
+                'title' => '创建Webhook',
+                'save-btn' => '保存Webhook',
+                'info' => '输入Webhook的详细信息',
+                'url-and-parameters' => 'URL和参数',
+                'method' => '方法',
+                'post' => 'Post',
+                'put' => 'Put',
+                'url-endpoint' => 'URL端点',
+                'parameters' => '参数',
+                'add-new-parameter' => '添加新参数',
+                'url-preview' => 'URL预览：',
+                'headers' => '头部',
+                'add-new-header' => '添加新头部',
+                'body' => '请求体',
+                'default' => '默认',
+                'x-www-form-urlencoded' => 'x-www-form-urlencoded',
+                'key-and-value' => '键值对',
+                'add-new-payload' => '添加新负载',
+                'raw' => '原始',
+                'general' => '一般',
+                'name' => '名称',
+                'entity-type' => '实体类型',
+                'insert-placeholder' => '插入占位符',
+                'description' => '描述',
+                'json' => 'JSON',
+                'text' => '文本',
+            ],
+
+            'edit' => [
+                'title' => '编辑Webhook',
+                'edit-btn' => '保存Webhook',
+                'save-btn' => '保存Webhook',
+                'info' => '输入Webhook的详细信息',
+                'url-and-parameters' => 'URL和参数',
+                'method' => '方法',
+                'post' => 'Post',
+                'put' => 'Put',
+                'url-endpoint' => 'URL端点',
+                'parameters' => '参数',
+                'add-new-parameter' => '添加新参数',
+                'url-preview' => 'URL预览：',
+                'headers' => '头部',
+                'add-new-header' => '添加新头部',
+                'body' => '请求体',
+                'default' => '默认',
+                'x-www-form-urlencoded' => 'x-www-form-urlencoded',
+                'key-and-value' => '键值对',
+                'add-new-payload' => '添加新负载',
+                'raw' => '原始',
+                'general' => '一般',
+                'name' => '名称',
+                'entity-type' => '实体类型',
+                'insert-placeholder' => '插入占位符',
+                'description' => '描述',
+                'json' => 'JSON',
+                'text' => '文本',
+            ],
+        ],
+
+        'warehouses' => [
+            'index' => [
+                'title' => '仓库',
+                'create-btn' => '创建仓库',
+                'create-success' => '仓库创建成功。',
+                'name-exists' => '仓库名称已存在。',
+                'update-success' => '仓库更新成功。',
+                'delete-success' => '仓库删除成功。',
+                'delete-failed' => '仓库无法删除。',
+
+                'datagrid' => [
+                    'id' => 'ID',
+                    'name' => '名称',
+                    'contact-name' => '联系人姓名',
+                    'delete' => '删除',
+                    'edit' => '编辑',
+                    'view' => '查看',
+                    'created-at' => '创建于',
+                    'products' => '产品',
+                    'contact-emails' => '联系人电子邮件',
+                    'contact-numbers' => '联系人电话',
+                ],
+            ],
+
+            'create' => [
+                'title' => '创建仓库',
+                'save-btn' => '保存仓库',
+                'contact-info' => '联系人信息',
+            ],
+
+            'edit' => [
+                'title' => '编辑仓库',
+                'save-btn' => '保存仓库',
+                'contact-info' => '联系人信息',
+            ],
+
+            'view' => [
+                'all' => '所有',
+                'notes' => '备注',
+                'files' => '文件',
+                'location' => '位置',
+                'change-logs' => '更改日志',
+
+                'locations' => [
+                    'action' => '操作',
+                    'add-location' => '添加位置',
+                    'create-success' => '位置创建成功。',
+                    'delete' => '删除',
+                    'delete-failed' => '位置无法删除。',
+                    'delete-success' => '位置删除成功。',
+                    'name' => '名称',
+                    'save-btn' => '保存',
+                ],
+
+                'general-information' => [
+                    'title' => '基本信息',
+                ],
+
+                'contact-information' => [
+                    'title' => '联系人信息',
+                ],
+            ],
+        ],
+
+
+        'attributes' => [
+            'index' => [
+                'title' => '属性',
+                'create-btn' => '创建属性',
+                'create-success' => '属性创建成功。',
+                'update-success' => '属性更新成功。',
+                'delete-success' => '属性删除成功。',
+                'delete-failed' => '属性无法删除。',
+                'user-define-error' => '无法删除系统属性。',
+                'mass-delete-failed' => '系统属性无法删除。',
+
+                'datagrid' => [
+                    'yes' => '是',
+                    'no' => '否',
+                    'id' => 'ID',
+                    'code' => '编码',
+                    'name' => '名称',
+                    'entity-type' => '实体类型',
+                    'type' => '类型',
+                    'is-default' => '是否默认',
+                    'edit' => '编辑',
+                    'delete' => '删除',
+                ],
+            ],
+
+            'create' => [
+                'title' => '创建属性',
+                'save-btn' => '保存属性',
+                'code' => '编码',
+                'name' => '名称',
+                'entity-type' => '实体类型',
+                'type' => '类型',
+                'validations' => '验证',
+                'is-required' => '是否必填',
+                'input-validation' => '输入验证',
+                'is-unique' => '是否唯一',
+                'labels' => '标签',
+                'general' => '一般',
+                'numeric' => '数字',
+                'decimal' => '小数',
+                'url' => '网址',
+                'options' => '选项',
+                'option-type' => '选项类型',
+                'lookup-type' => '查找类型',
+                'add-option' => '添加选项',
+                'save-option' => '保存选项',
+                'option-name' => '选项名称',
+                'add-attribute-options' => '添加属性选项',
+                'text' => '文本',
+                'textarea' => '文本框',
+                'price' => '价格',
+                'boolean' => '布尔值',
+                'select' => '单选',
+                'multiselect' => '多选',
+                'email' => '电子邮件',
+                'address' => '地址',
+                'phone' => '电话',
+                'datetime' => '日期时间',
+                'date' => '日期',
+                'image' => '图片',
+                'file' => '文件',
+                'lookup' => '查找',
+                'entity_type' => '实体类型',
+                'checkbox' => '复选框',
+                'is_required' => '是否必填',
+                'is_unique' => '是否唯一',
+                'actions' => '操作',
+            ],
+
+            'edit' => [
+                'title' => '编辑属性',
+                'save-btn' => '保存属性',
+                'code' => '编码',
+                'name' => '名称',
+                'labels' => '标签',
+                'entity-type' => '实体类型',
+                'type' => '类型',
+                'validations' => '验证',
+                'is-required' => '是否必填',
+                'input-validation' => '输入验证',
+                'is-unique' => '是否唯一',
+                'general' => '一般',
+                'numeric' => '数字',
+                'decimal' => '小数',
+                'url' => '网址',
+                'options' => '选项',
+                'option-type' => '选项类型',
+                'lookup-type' => '查找类型',
+                'add-option' => '添加选项',
+                'save-option' => '保存选项',
+                'option-name' => '选项名称',
+                'add-attribute-options' => '添加属性选项',
+                'text' => '文本',
+                'textarea' => '文本框',
+                'price' => '价格',
+                'boolean' => '布尔值',
+                'select' => '单选',
+                'multiselect' => '多选',
+                'email' => '电子邮件',
+                'address' => '地址',
+                'phone' => '电话',
+                'datetime' => '日期时间',
+                'date' => '日期',
+                'image' => '图片',
+                'file' => '文件',
+                'lookup' => '查找',
+                'entity_type' => '实体类型',
+                'checkbox' => '复选框',
+                'is_required' => '是否必填',
+                'is_unique' => '是否唯一',
+                'actions' => '操作',
+            ],
+        ],
+
+    ],
+
+    'activities' => [
+        'index' => [
+            'title' => '活动',
+
+            'datagrid' => [
+                'comment' => '评论',
+                'created_at' => '创建时间',
+                'created_by' => '创建者',
+                'edit' => '编辑',
+                'id' => 'ID',
+                'done' => '是否完成',
+                'not-done' => '未完成',
+                'lead' => '潜在客户',
+                'mass-delete' => '批量删除',
+                'mass-update' => '批量更新',
+                'schedule-from' => '计划开始时间',
+                'schedule-to' => '计划结束时间',
+                'schedule_from' => '计划开始时间',
+                'schedule_to' => '计划结束时间',
+                'title' => '标题',
+                'is_done' => '是否完成',
+                'type' => '类型',
+                'update' => '更新',
+                'call' => '电话',
+                'meeting' => '会议',
+                'lunch' => '午餐',
+            ],
+        ],
+
+        'edit' => [
+            'title' => '编辑活动',
+            'back-btn' => '返回',
+            'save-btn' => '保存活动',
+            'type' => '活动类型',
+            'call' => '电话',
+            'meeting' => '会议',
+            'lunch' => '午餐',
+            'schedule_to' => '计划结束时间',
+            'schedule_from' => '计划开始时间',
+            'location' => '地点',
+            'comment' => '评论',
+            'lead' => '潜在客户',
+            'participants' => '参与者',
+            'general' => '一般',
+            'persons' => '人员',
+            'no-result-found' => '未找到记录。',
+            'users' => '用户',
+        ],
+
+        'updated' => '更新了 :attribute',
+        'created' => '已创建',
+        'duration-overlapping' => '参与者在此时间有其他会议。您要继续吗？',
+        'create-success' => '活动创建成功。',
+        'update-success' => '活动更新成功。',
+        'overlapping-error' => '参与者在此时间有其他会议。',
+        'destroy-success' => '活动删除成功。',
+        'delete-failed' => '活动无法删除。',
+        'mass-update-success' => '活动更新成功。',
+        'mass-destroy-success' => '活动删除成功。',
+        'mass-delete-failed' => '活动无法删除。',
+    ],
+
+    'mail' => [
+        'index' => [
+            'compose' => '写邮件',
+            'draft' => '草稿',
+            'inbox' => '收件箱',
+            'outbox' => '发件箱',
+            'sent' => '已发送',
+            'trash' => '垃圾箱',
+            'compose-mail-btn' => '写邮件',
+            'btn' => '邮件',
+            'mail' => [
+                'title' => '写邮件',
+                'to' => '收件人',
+                'enter-emails' => '按 Enter 键添加邮箱',
+                'cc' => '抄送',
+                'bcc' => '密送',
+                'subject' => '主题',
+                'send-btn' => '发送',
+                'message' => '信息',
+                'draft' => '草稿',
+            ],
+
+            'datagrid' => [
+                'id' => 'ID',
+                'from' => '发件人',
+                'to' => '收件人',
+                'subject' => '主题',
+                'tag-name' => '标签名称',
+                'created-at' => '创建时间',
+                'move-to-inbox' => '已移至收件箱',
+                'edit' => '编辑',
+                'view' => '查看',
+                'delete' => '删除',
+            ],
+        ],
+
+        'create-success' => '邮件发送成功。',
+        'update-success' => '邮件更新成功。',
+        'mass-update-success' => '邮件更新成功。',
+        'delete-success' => '邮件删除成功。',
+        'delete-failed' => '邮件无法删除。',
+
+        'view' => [
+            'title' => '邮件',
+            'subject' => ':subject',
+            'link-mail' => '链接邮件',
+            'to' => '收件人',
+            'cc' => '抄送',
+            'bcc' => '密送',
+            'reply' => '回复',
+            'reply-all' => '回复全部',
+            'forward' => '转发',
+            'delete' => '删除',
+            'enter-mails' => '输入邮箱ID',
+            'rotten-days' => '潜在客户已腐烂 :days 天',
+            'search-an-existing-lead' => '搜索现有潜在客户',
+            'search-an-existing-contact' => '搜索现有联系人',
+            'message' => '信息',
+            'add-attachments' => '添加附件',
+            'discard' => '丢弃',
+            'send' => '发送',
+            'no-result-found' => '未找到结果',
+            'add-new-contact' => '添加新联系人',
+            'description' => '描述',
+            'search' => '搜索...',
+            'add-new-lead' => '添加新潜在客户',
+            'create-new-contact' => '创建新联系人',
+            'save-contact' => '保存联系人',
+            'create-lead' => '创建潜在客户',
+            'linked-contact' => '关联联系人',
+            'link-to-contact' => '链接到联系人',
+            'link-to-lead' => '链接到潜在客户',
+            'linked-lead' => '关联潜在客户',
+            'lead-details' => '潜在客户详情',
+            'contact-person' => '联系人',
+            'product' => '产品',
+
+            'tags' => [
+                'create-success' => '标签创建成功。',
+                'destroy-success' => '标签删除成功。',
+            ],
+        ],
+    ],
+
+    'common' => [
+        'custom-attributes' => [
+            'select-country' => '选择国家',
+            'select-state' => '选择省/州',
+            'state' => '省/州',
+            'city' => '城市',
+            'postcode' => '邮政编码',
+            'work' => '工作',
+            'home' => '家庭',
+            'add-more' => '添加更多',
+            'select' => '选择',
+            'country' => '国家',
+            'address' => '地址',
+        ],
+    ],
+
+
+    'leads' => [
+        'create-success' => '潜在客户创建成功。',
+        'update-success' => '潜在客户更新成功。',
+        'update-failed' => '潜在客户无法删除。',
+        'destroy-success' => '潜在客户删除成功。',
+        'destroy-failed' => '潜在客户无法删除。',
+
+        'index' => [
+            'title' => '潜在客户',
+            'create-btn' => '创建潜在客户',
+
+            'datagrid' => [
+                'id' => 'ID',
+                'sales-person' => '销售人员',
+                'subject' => '主题',
+                'source' => '来源',
+                'lead-value' => '潜在客户价值',
+                'lead-type' => '潜在客户类型',
+                'tag-name' => '标签名称',
+                'contact-person' => '联系人',
+                'stage' => '阶段',
+                'rotten-lead' => '腐烂的潜在客户',
+                'expected-close-date' => '预计关闭日期',
+                'created-at' => '创建时间',
+                'no' => '否',
+                'yes' => '是',
+                'delete' => '删除',
+                'mass-delete' => '批量删除',
+                'mass-update' => '批量更新',
+            ],
+
+            'kanban' => [
+                'rotten-days' => '潜在客户已腐烂 :days 天',
+                'empty-list' => '您的潜在客户列表为空',
+                'empty-list-description' => '创建一个潜在客户来组织您的目标。',
+                'create-lead-btn' => '创建潜在客户',
+
+                'columns' => [
+                    'contact-person' => '联系人',
+                    'id' => 'ID',
+                    'lead-type' => '潜在客户类型',
+                    'lead-value' => '潜在客户价值',
+                    'sales-person' => '销售人员',
+                    'source' => '来源',
+                    'title' => '标题',
+                    'tags' => '标签',
+                    'expected-close-date' => '预计关闭日期',
+                    'created-at' => '创建时间',
+                ],
+
+                'toolbar' => [
+                    'search' => [
+                        'title' => '搜索',
+                    ],
+
+                    'filters' => [
+                        'apply-filters' => '应用筛选',
+                        'clear-all' => '清除所有',
+                        'filter' => '筛选',
+                        'filters' => '筛选器',
+                        'select' => '选择',
+                    ],
+                ],
+            ],
+
+            'view-switcher' => [
+                'all-pipelines' => '所有管道',
+                'create-new-pipeline' => '创建新管道',
+            ],
+        ],
+
+        'create' => [
+            'title' => '创建潜在客户',
+            'save-btn' => '保存',
+            'details' => '详情',
+            'details-info' => '填写潜在客户的基本信息',
+            'contact-person' => '联系人',
+            'contact-info' => '联系人信息',
+            'products' => '产品',
+            'products-info' => '产品信息',
+        ],
+
+        'edit' => [
+            'title' => '编辑潜在客户',
+            'save-btn' => '保存',
+            'details' => '详情',
+            'details-info' => '填写潜在客户的基本信息',
+            'contact-person' => '联系人',
+            'contact-info' => '联系人信息',
+            'products' => '产品',
+            'products-info' => '产品信息',
+        ],
+
+        'common' => [
+            'contact' => [
+                'name' => '姓名',
+                'email' => '电子邮件',
+                'contact-number' => '联系电话',
+                'organization' => '公司',
+            ],
+
+            'products' => [
+                'product-name' => '产品名称',
+                'quantity' => '数量',
+                'price' => '价格',
+                'amount' => '金额',
+                'action' => '操作',
+                'add-more' => '添加更多',
+                'total' => '总计',
+            ],
+        ],
+
+        'view' => [
+            'title' => '潜在客户: :title',
+            'rotten-days' => ':days 天',
+
+            'tabs' => [
+                'description' => '描述',
+                'products' => '产品',
+                'quotes' => '报价单',
+            ],
+
+            'attributes' => [
+                'title' => '关于潜在客户',
+            ],
+
+            'quotes' => [
+                'subject' => '主题',
+                'expired-at' => '过期时间',
+                'sub-total' => '小计',
+                'discount' => '折扣',
+                'tax' => '税',
+                'adjustment' => '调整',
+                'grand-total' => '总计',
+                'delete' => '删除',
+                'edit' => '编辑',
+                'download' => '下载',
+                'destroy-success' => '报价单删除成功。',
+                'empty-title' => '未找到报价单',
+                'empty-info' => '此潜在客户未找到报价单',
+                'add-btn' => '添加报价单',
+            ],
+
+            'products' => [
+                'product-name' => '产品名称',
+                'quantity' => '数量',
+                'price' => '价格',
+                'amount' => '金额',
+                'action' => '操作',
+                'add-more' => '添加更多',
+                'total' => '总计',
+                'empty-title' => '未找到产品',
+                'empty-info' => '此潜在客户未找到产品',
+                'add-product' => '添加产品',
+            ],
+
+            'persons' => [
+                'title' => '关于联系人',
+                'job-title' => ':job_title 于 :organization',
+            ],
+
+            'stages' => [
+                'won-lost' => '赢/输',
+                'won' => '赢',
+                'lost' => '输',
+                'need-more-info' => '需要更多信息',
+                'closed-at' => '关闭时间',
+                'won-value' => '赢得的价值',
+                'lost-reason' => '失去的原因',
+                'save-btn' => '保存',
+            ],
+
+            'tags' => [
+                'create-success' => '标签创建成功。',
+                'destroy-success' => '标签删除成功。',
+            ],
+        ],
+    ],
+
+    'configuration' => [
+        'index' => [
+            'back' => '返回',
+            'save-btn' => '保存配置',
+            'save-success' => '配置保存成功。',
+            'search' => '搜索',
+            'title' => '配置',
+
+            'general' => [
+                'title' => '通用',
+                'info' => '通用配置',
+
+                'general' => [
+                    'title' => '通用',
+                    'info' => '在此处更新您的通用设置。',
+                    'locale-settings' => [
+                        'title' => '语言设置',
+                        'title-info' => '定义用户界面中使用的语言，例如阿拉伯语（ar），英语（en），西班牙语（es），波斯语（fa）和土耳其语（tr）。',
+                    ],
+                ],
+            ],
+        ],
+    ],
+
+    'dashboard' => [
+        'index' => [
+            'title' => '仪表板',
+
+            'revenue' => [
+                'lost-revenue' => '失去的收入',
+                'won-revenue' => '赢得的收入',
+            ],
+
+            'over-all' => [
+                'average-lead-value' => '平均潜在客户价值',
+                'total-leads' => '总潜在客户',
+                'average-leads-per-day' => '每天平均潜在客户',
+                'total-quotations' => '总报价单',
+                'total-persons' => '总联系人',
+                'total-organizations' => '总公司',
+            ],
+
+            'total-leads' => [
+                'title' => '潜在客户',
+                'total' => '总潜在客户',
+                'won' => '赢得的潜在客户',
+                'lost' => '失去的潜在客户',
+            ],
+
+            'revenue-by-sources' => [
+                'title' => '按来源分类的收入',
+                'empty-title' => '没有可用数据',
+                'empty-info' => '所选时间段内没有数据',
+            ],
+
+            'revenue-by-types' => [
+                'title' => '按类型分类的收入',
+                'empty-title' => '没有可用数据',
+                'empty-info' => '所选时间段内没有数据',
+            ],
+
+            'top-selling-products' => [
+                'title' => '畅销产品',
+                'empty-title' => '没有找到产品',
+                'empty-info' => '所选时间段内没有产品',
+            ],
+
+            'top-persons' => [
+                'title' => '顶级联系人',
+                'empty-title' => '没有找到联系人',
+                'empty-info' => '所选时间段内没有联系人',
+            ],
+
+            'open-leads-by-states' => [
+                'title' => '按状态分类的开放潜在客户',
+                'empty-title' => '没有可用数据',
+                'empty-info' => '所选时间段内没有数据',
+            ],
+        ],
+    ],
+
+
+    'layouts' => [
+        'app-version' => '版本: :version',
+        'dashboard' => '仪表板',
+        'leads' => '潜在客户',
+        'quotes' => '报价单',
+        'quote' => '报价单',
+        'mail' => [
+            'title' => '邮件',
+            'compose' => '写信',
+            'inbox' => '收件箱',
+            'draft' => '草稿',
+            'outbox' => '发件箱',
+            'sent' => '已发送',
+            'trash' => '垃圾箱',
+            'setting' => '设置',
+        ],
+        'activities' => '活动',
+        'contacts' => '联系人',
+        'persons' => '人员',
+        'person' => '人员',
+        'organizations' => '组织',
+        'organization' => '组织',
+        'products' => '产品',
+        'product' => '产品',
+        'settings' => '设置',
+        'user' => '用户',
+        'user-info' => '管理您的所有用户及其权限，控制他们在CRM中可以执行的操作。',
+        'groups' => '用户组',
+        'groups-info' => '添加、编辑或删除CRM中的用户组',
+        'roles' => '角色',
+        'role' => '角色',
+        'roles-info' => '添加、编辑或删除CRM中的角色',
+        'users' => '用户',
+        'users-info' => '添加、编辑或删除CRM中的用户',
+        'lead' => '潜在客户',
+        'lead-info' => '管理CRM中的所有潜在客户相关设置',
+        'pipelines' => '销售流程',
+        'pipelines-info' => '添加、编辑或删除CRM中的销售流程',
+        'sources' => '来源',
+        'sources-info' => '添加、编辑或删除CRM中的来源',
+        'types' => '类型',
+        'types-info' => '添加、编辑或删除CRM中的类型',
+        'automation' => '自动化',
+        'automation-info' => '管理CRM中的所有自动化相关设置',
+        'attributes' => '属性',
+        'attribute' => '属性',
+        'attributes-info' => '添加、编辑或删除CRM中的属性',
+        'email-templates' => '邮件模板',
+        'email' => '邮件',
+        'email-templates-info' => '添加、编辑或删除CRM中的邮件模板',
+        'workflows' => '工作流',
+        'workflows-info' => '添加、编辑或删除CRM中的工作流',
+        'webhooks' => 'Webhooks',
+        'webhooks-info' => '添加、编辑或删除CRM中的Webhooks',
+        'other-settings' => '其他设置',
+        'other-settings-info' => '管理CRM中的所有额外设置',
+        'tags' => '标签',
+        'tags-info' => '添加、编辑或删除CRM中的标签',
+        'my-account' => '我的账户',
+        'sign-out' => '退出登录',
+        'back' => '返回',
+        'name' => '名称',
+        'configuration' => '配置',
+        'activities' => '活动',
+        'howdy' => '您好!',
+        'warehouses' => '仓库',
+        'warehouse' => '仓库',
+        'warehouses-info' => '添加、编辑或删除CRM中的仓库',
+    ],
+
+    'user' => [
+        'account' => [
+            'name' => '姓名',
+            'email' => '电子邮件',
+            'password' => '密码',
+            'my_account' => '我的账户',
+            'update_details' => '更新详情',
+            'current_password' => '当前密码',
+            'confirm_password' => '确认密码',
+            'password-match' => '当前密码不匹配。',
+            'account-save' => '账户更改已成功保存。',
+            'permission-denied' => '权限被拒绝',
+            'remove-image' => '删除头像',
+            'upload_image_pix' => '上传头像 (100px x 100px)',
+            'upload_image_format' => '支持 PNG 或 JPG 格式',
+            'image_upload_message' => '只允许上传图片 (.jpeg, .jpg, .png, ..)。',
+        ],
+    ],
+
+    'emails' => [
+        'common' => [
+            'dear' => '亲爱的 :name',
+            'cheers' => '祝好,</br>团队 :app_name',
+
+            'user' => [
+                'dear' => '亲爱的 :username',
+                'create-subject' => '您已被添加为成员。',
+                'create-body' => '恭喜！您现在是我们团队的一员。',
+
+                'forget-password' => [
+                    'subject' => '客户重置密码',
+                    'dear' => '亲爱的 :username',
+                    'reset-password' => '重置密码',
+                    'info' => '您收到此邮件是因为我们收到了您账户的密码重置请求。',
+                    'final-summary' => '如果您没有请求重置密码，则不需要采取任何进一步的操作。',
+                    'thanks' => '谢谢!',
+                ],
+            ],
+        ],
+    ],
+
+    'errors' => [
+        'dashboard' => '仪表板',
+        'go-back' => '返回',
+        'support' => '如果问题仍然存在，请通过<a href=":link" class=":class">:email</a>与我们联系以获取帮助。',
+
+        '404' => [
+            'description' => '哎呀！您寻找的页面不见了。似乎我们找不到您搜索的内容。',
+            'title' => '404 页面未找到',
+        ],
+
+        '401' => [
+            'description' => '哎呀！看起来您没有访问此页面的权限。似乎您缺少必要的凭据。',
+            'title' => '401 未授权',
+        ],
+
+        '403' => [
+            'description' => '哎呀！此页面禁止访问。您似乎没有查看此内容的权限。',
+            'title' => '403 禁止访问',
+        ],
+
+        '500' => [
+            'description' => '哎呀！出了点问题。似乎我们遇到了一些加载页面的麻烦。',
+            'title' => '500 内部服务器错误',
+        ],
+
+        '503' => [
+            'description' => '哎呀！看起来我们暂时在进行维护。请稍后再试。',
+            'title' => '503 服务不可用',
+        ],
+    ],
+
+];

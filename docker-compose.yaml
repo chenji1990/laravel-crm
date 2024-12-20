@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  # PHP 服务
+  app:
+    image: registry.cn-shanghai.aliyuncs.com/berry-med/crm:latest
+    container_name: crm
+    volumes:
+      - /Users/zhuchengji/Code/Berry/crm/laravel-crm/storage:/var/www/html/storage
+    ports:
+      - "80:80"
